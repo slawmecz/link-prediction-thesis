@@ -1,0 +1,61 @@
+INFO:__main__:Loading FB15k237 dataset...
+INFO:__main__:Using original training dataset (no artificial triples)
+WARNING:pykeen.triples.triples_factory:You're trying to map triples with 30 entities and 0 relations that are not in the training set. These triples will be excluded from the mapping.
+WARNING:pykeen.triples.triples_factory:In total 28 from 20466 triples were filtered out
+INFO:__main__:Computing triple weights using Leave-One-Out scoring...
+INFO:__main__:Converting triples to string format...
+INFO:__main__:Converted 272115 triples to string format
+INFO:leave_one_out_scoring:Scoring 272115 triples...
+INFO:leave_one_out_scoring:Building entity properties map...
+INFO:leave_one_out_scoring:Built properties map for 14505 entities
+INFO:leave_one_out_scoring:Limiting scoring to 10 entities
+INFO:leave_one_out_scoring:Completed scoring 268 triples
+INFO:__main__:Weight statistics: min=0.0369, max=0.9286, mean=0.0504
+INFO:__main__:Converting string weights to ID weights...
+INFO:__main__:Converted 272115 string weights to ID weights
+INFO:__main__:Saved weights to triple_weights_FB15k237_averaged.pkl
+INFO:__main__:Computed weights for 272115 triples
+INFO:__main__:Starting training with PyKEEN pipeline...
+WARNING:pykeen.triples.triples_factory:You're trying to map triples with 9 entities and 0 relations that are not in the training set. These triples will be excluded from the mapping.
+WARNING:pykeen.triples.triples_factory:In total 9 from 17535 triples were filtered out
+INFO:pykeen.pipeline.api:Using device: cpu
+INFO:pykeen.stoppers.early_stopping:Inferred checkpoint path for best model weights: C:\Users\Slawek\.data\pykeen\checkpoints\best-model-weights-49368c64-d4d0-4cc3-99bb-dcdd6c38d7cf.pt
+C:\Users\Slawek\anaconda3\envs\knowledge_graphs\lib\site-packages\torch\optim\lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Training epochs on cpu:   0%|                                                                | 0/19 [00:27<?, ?epoch/s]
+Traceback (most recent call last):                                                                                     
+  File "C:\Users\Slawek\Documents\GitHub\link-prediction-thesis\pre-training\weigthed_training\complex_weighted_training_pipeline.py", line 613, in <module>
+    main()
+  File "C:\Users\Slawek\Documents\GitHub\link-prediction-thesis\pre-training\weigthed_training\complex_weighted_training_pipeline.py", line 595, in main
+    results = train_weighted_complex_pipeline(config)
+  File "C:\Users\Slawek\Documents\GitHub\link-prediction-thesis\pre-training\weigthed_training\complex_weighted_training_pipeline.py", line 478, in train_weighted_complex_pipeline
+    result = pipeline(
+  File "C:\Users\Slawek\anaconda3\envs\knowledge_graphs\lib\site-packages\pykeen\pipeline\api.py", line 1540, in pipeline
+    stopper_instance, configuration, losses, train_seconds = _handle_training(
+  File "C:\Users\Slawek\anaconda3\envs\knowledge_graphs\lib\site-packages\pykeen\pipeline\api.py", line 1181, in _handle_training
+    losses = training_loop_instance.train(
+  File "C:\Users\Slawek\anaconda3\envs\knowledge_graphs\lib\site-packages\pykeen\training\training_loop.py", line 394, in train
+    result = self._train(
+  File "C:\Users\Slawek\anaconda3\envs\knowledge_graphs\lib\site-packages\pykeen\training\training_loop.py", line 727, in _train
+    epoch_loss = self._train_epoch(
+  File "C:\Users\Slawek\anaconda3\envs\knowledge_graphs\lib\site-packages\pykeen\training\training_loop.py", line 500, in _train_epoch
+    callbacks.post_batch(epoch=epoch, batch=batch)
+  File "C:\Users\Slawek\anaconda3\envs\knowledge_graphs\lib\site-packages\pykeen\training\callbacks.py", line 632, in post_batch
+    callback.post_batch(epoch=epoch, batch=batch, **kwargs)
+  File "C:\Users\Slawek\anaconda3\envs\knowledge_graphs\lib\site-packages\pykeen\training\callbacks.py", line 426, in post_batch
+    self.optimizer.step()
+  File "C:\Users\Slawek\anaconda3\envs\knowledge_graphs\lib\site-packages\torch\optim\lr_scheduler.py", line 140, in wrapper
+    return func.__get__(opt, opt.__class__)(*args, **kwargs)
+  File "C:\Users\Slawek\anaconda3\envs\knowledge_graphs\lib\site-packages\torch\optim\optimizer.py", line 493, in wrapper
+    out = func(*args, **kwargs)
+  File "C:\Users\Slawek\anaconda3\envs\knowledge_graphs\lib\site-packages\torch\optim\optimizer.py", line 91, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "C:\Users\Slawek\anaconda3\envs\knowledge_graphs\lib\site-packages\torch\optim\adam.py", line 244, in step
+    adam(
+  File "C:\Users\Slawek\anaconda3\envs\knowledge_graphs\lib\site-packages\torch\optim\optimizer.py", line 154, in maybe_fallback
+    return func(*args, **kwargs)
+  File "C:\Users\Slawek\anaconda3\envs\knowledge_graphs\lib\site-packages\torch\optim\adam.py", line 876, in adam
+    func(
+  File "C:\Users\Slawek\anaconda3\envs\knowledge_graphs\lib\site-packages\torch\optim\adam.py", line 425, in _single_tensor_adam
+    exp_avg_sq.mul_(beta2).addcmul_(grad, grad.conj(), value=1 - beta2)
+KeyboardInterrupt

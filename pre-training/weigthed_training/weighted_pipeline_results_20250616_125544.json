@@ -1,0 +1,11 @@
+{
+  "test_hits_at_1": 0.029161366082786966,
+  "test_hits_at_3": 0.054432919072316274,
+  "test_hits_at_10": 0.09516586750171249,
+  "test_mrr": 0.05265529826283455,
+  "test_mr": 0.0,
+  "training_duration_seconds": 1506.624654,
+  "num_training_triples": 272115,
+  "num_weighted_triples": 272115,
+  "num_artificial_triples": 0
+}

@@ -1,0 +1,39 @@
+INFO:__main__:Loading FB15k237 dataset...
+INFO:__main__:Using original training dataset (no artificial triples)
+WARNING:pykeen.triples.triples_factory:You're trying to map triples with 30 entities and 0 relations that are not in the training set. These triples will be excluded from the mapping.
+WARNING:pykeen.triples.triples_factory:In total 28 from 20466 triples were filtered out
+INFO:__main__:Computing triple weights using Leave-One-Out scoring...
+INFO:__main__:Converting triples to string format...
+INFO:__main__:Converted 272115 triples to string format
+INFO:leave_one_out_scoring:Scoring 272115 triples...
+INFO:leave_one_out_scoring:Building entity properties map...
+INFO:leave_one_out_scoring:Built properties map for 14505 entities
+INFO:leave_one_out_scoring:Limiting scoring to 100 entities
+INFO:leave_one_out_scoring:Scored 4000/272115 triples
+INFO:leave_one_out_scoring:Scored 22000/272115 triples
+Traceback (most recent call last):
+  File "C:\Users\Slawek\Documents\GitHub\link-prediction-thesis\pre-training\weigthed_training\complex_weighted_training_pipeline.py", line 613, in <module>
+    main()
+  File "C:\Users\Slawek\Documents\GitHub\link-prediction-thesis\pre-training\weigthed_training\complex_weighted_training_pipeline.py", line 595, in main
+    results = train_weighted_complex_pipeline(config)
+  File "C:\Users\Slawek\Documents\GitHub\link-prediction-thesis\pre-training\weigthed_training\complex_weighted_training_pipeline.py", line 432, in train_weighted_complex_pipeline
+    triple_weights = compute_and_save_triple_weights(
+  File "C:\Users\Slawek\Documents\GitHub\link-prediction-thesis\pre-training\weigthed_training\complex_weighted_training_pipeline.py", line 353, in compute_and_save_triple_weights
+    string_weights = scorer.score_all_triples(
+  File "C:\Users\Slawek\Documents\GitHub\link-prediction-thesis\pre-training\weigthed_training\leave_one_out_scoring.py", line 308, in score_all_triples
+    score = self.get_triple_score_averaged(head, relation, tail)
+  File "C:\Users\Slawek\Documents\GitHub\link-prediction-thesis\pre-training\weigthed_training\leave_one_out_scoring.py", line 256, in get_triple_score_averaged
+    head_score = self.get_triple_score_from_head(head, relation, tail)
+  File "C:\Users\Slawek\Documents\GitHub\link-prediction-thesis\pre-training\weigthed_training\leave_one_out_scoring.py", line 180, in get_triple_score_from_head
+    recommendations = self._call_recommender_api(properties_list)
+  File "C:\Users\Slawek\Documents\GitHub\link-prediction-thesis\pre-training\weigthed_training\leave_one_out_scoring.py", line 79, in _call_recommender_api
+    response = requests.post(
+  File "C:\Users\Slawek\anaconda3\envs\knowledge_graphs\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "C:\Users\Slawek\anaconda3\envs\knowledge_graphs\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Slawek\anaconda3\envs\knowledge_graphs\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Slawek\anaconda3\envs\knowledge_graphs\lib\site-packages\requests\sessions.py", line 707, in send
+    r.elapsed = timedelta(seconds=elapsed)
+KeyboardInterrupt

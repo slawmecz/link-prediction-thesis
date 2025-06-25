@@ -1,0 +1,25 @@
+INFO:__main__:Loading FB15k237 dataset...
+INFO:__main__:Using original training dataset (no artificial triples)
+WARNING:pykeen.triples.triples_factory:You're trying to map triples with 30 entities and 0 relations that are not in the training set. These triples will be excluded from the mapping.
+WARNING:pykeen.triples.triples_factory:In total 28 from 20466 triples were filtered out
+INFO:__main__:Loading existing weights from triple_weights_FB15k237_averaged.pkl
+INFO:__main__:Loaded weights from triple_weights_FB15k237_averaged.pkl
+INFO:__main__:Computed weights for 272115 triples
+INFO:__main__:Starting training with PyKEEN pipeline...
+WARNING:pykeen.triples.triples_factory:You're trying to map triples with 9 entities and 0 relations that are not in the training set. These triples will be excluded from the mapping.
+WARNING:pykeen.triples.triples_factory:In total 9 from 17535 triples were filtered out
+INFO:pykeen.pipeline.api:Using device: cpu
+INFO:pykeen.stoppers.early_stopping:Inferred checkpoint path for best model weights: C:\Users\Slawek\.data\pykeen\checkpoints\best-model-weights-e69ea3ee-4002-49d7-9d41-406d80b14f29.pt
+C:\Users\Slawek\anaconda3\envs\knowledge_graphs\lib\site-packages\torch\optim\lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Training epochs on cpu:   0%|                                       | 0/1 [02:44<?, ?epoch/s, loss=50.9, prev_loss=nan]C:\Users\Slawek\anaconda3\envs\knowledge_graphs\lib\site-packages\torch\optim\lr_scheduler.py:243: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)                                                                
+Training epochs on cpu: 100%|██████████████████████████████| 1/1 [02:44<00:00, 164.87s/epoch, loss=50.9, prev_loss=nan]
+INFO:root:When evaluating the test dataset after running the pipeline with early stopping, the validation triples are added to the set of known positive triples which are filtered out when performing filtered evaluation following the approach described by (Bordes et al., 2013).
+Evaluating on cpu:   0%|                                                              | 0.00/20.4k [00:00<?, ?triple/s]WARNING:torch_max_mem.api:Encountered tensors on device_types={'cpu'} while only ['cuda'] are considered safe for automatic memory utilization maximization. This may lead to undocumented crashes (but can be safe, too).
+Evaluating on cpu:   0%|                                                              | 0.00/20.4k [00:00<?, ?triple/s]INFO:torch_max_mem.api:Execution failed with p_kwargs={'batch_size': 256, 'slice_size': 14505}
+Evaluating on cpu:   1%|▎                                                    | 128/20.4k [07:58<21:06:24, 3.74s/triple]INFO:torch_max_mem.api:Execution failed with p_kwargs={'batch_size': 128, 'slice_size': 14505}
+Evaluating on cpu: 100%|██████████████████████████████████████████████████████| 20.4k/20.4k [14:05<00:00, 24.2triple/s]
+INFO:pykeen.evaluation.evaluator:Evaluation took 1330.93s seconds
+INFO:__main__:Training completed in 0:25:06.624654
+INFO:__main__:Final test metrics: {'test_hits_at_1': 0.029161366082786966, 'test_hits_at_3': 0.054432919072316274, 'test_hits_at_10': 0.09516586750171249, 'test_mrr': 0.05265529826283455, 'test_mr': 0.0, 'training_duration_seconds': 1506.624654, 'num_training_triples': 272115, 'num_weighted_triples': 272115, 'num_artificial_triples': 0}

@@ -1,0 +1,119 @@
+{"time":"2025-06-16T12:30:05.6452435+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\Slawek\\Documents\\GitHub\\link-prediction-thesis\\pre-training\\weigthed_training\\wandb\\run-20250616_123005-hq2yf9wc\\logs\\debug-core.log"}
+{"time":"2025-06-16T12:30:06.3656755+02:00","level":"INFO","msg":"created new stream","id":"hq2yf9wc"}
+{"time":"2025-06-16T12:30:06.3656755+02:00","level":"INFO","msg":"stream: started","id":"hq2yf9wc"}
+{"time":"2025-06-16T12:30:06.3656755+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"hq2yf9wc"}
+{"time":"2025-06-16T12:30:06.3656755+02:00","level":"INFO","msg":"sender: started","stream_id":"hq2yf9wc"}
+{"time":"2025-06-16T12:30:06.3656755+02:00","level":"INFO","msg":"handler: started","stream_id":"hq2yf9wc"}
+{"time":"2025-06-16T12:30:06.6541321+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-16T12:30:21.7409062+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:30:36.7404431+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:30:51.7507076+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:31:07.0150919+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:31:21.7873483+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:31:36.7847542+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:31:51.7672518+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:32:06.7565071+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:32:21.773358+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:32:36.7578993+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:32:52.0245869+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:33:06.8285812+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:33:21.7026111+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:33:39.7787084+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:33:55.6901766+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:34:09.1202842+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:34:23.8753604+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:35:02.409845+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:35:16.196328+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/slaw-mecz-vrije-universiteit-amsterdam/complex-weighted-training-pipeline/hq2yf9wc/file_stream\": write tcp 145.108.246.106:63931->35.186.228.49:443: wsasend: An established connection was aborted by the software in your host machine."}
+{"time":"2025-06-16T12:35:25.9148158+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:35:55.4503693+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:35:59.189888+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/slaw-mecz-vrije-universiteit-amsterdam/complex-weighted-training-pipeline/hq2yf9wc/file_stream\": write tcp 145.108.246.106:63933->35.186.228.49:443: wsasend: An established connection was aborted by the software in your host machine."}
+{"time":"2025-06-16T12:36:25.5798182+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:36:43.1150268+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/slaw-mecz-vrije-universiteit-amsterdam/complex-weighted-training-pipeline/hq2yf9wc/file_stream\": write tcp 145.108.246.106:63934->35.186.228.49:443: wsasend: An established connection was aborted by the software in your host machine."}
+{"time":"2025-06-16T12:36:46.6232487+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:36:52.6011929+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:36:52.8285895+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:37:07.4585257+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:37:22.3176706+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:37:37.4924152+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:37:51.8321097+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:38:06.7444452+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:38:21.6812828+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:38:36.7613347+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:38:51.7553048+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:39:06.804359+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:39:21.6940317+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:39:36.6812051+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:39:51.7807696+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:40:06.71964+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:40:21.6982675+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:40:36.6784222+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:40:51.7099135+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:41:06.9463549+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:41:21.6868218+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:41:36.7809589+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:41:51.7338952+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:42:06.7168906+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:42:21.786335+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:42:36.7289339+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:42:51.743937+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:43:06.6952737+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:43:21.7671192+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:43:36.7757035+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:43:51.7590582+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:44:06.7309319+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:44:21.7522766+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:44:37.0276974+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:44:51.6840582+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:45:06.8738119+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:45:21.6941743+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:45:36.6796808+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:45:51.7808798+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:46:06.7465313+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:46:21.7072534+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:46:36.67365+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:46:51.7008241+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:47:06.6929375+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:47:21.764595+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:47:36.6886697+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:47:51.7272232+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:48:06.7233374+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:48:21.717603+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:48:36.7131953+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:48:51.7008165+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:49:06.6878185+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:49:21.6803835+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:49:36.7152301+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:49:51.7166687+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:50:06.7489283+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:50:21.7093718+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:50:36.6927481+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:50:51.6810288+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:51:06.724174+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:51:21.7102233+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:51:36.7473238+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:51:51.7347078+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:52:06.8125898+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:52:21.7009849+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:52:36.8245042+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:52:51.70124+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:53:06.9254837+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:53:21.6884582+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:53:36.8770263+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:53:51.7076246+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:54:06.7407308+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:54:21.7398783+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:54:36.8254606+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:54:51.6905446+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:55:06.8589603+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:55:14.9283543+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-16T12:55:14.9288674+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-16T12:55:15.0582603+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 145.108.246.106:54853->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-06-16T12:55:16.0331692+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading console lines 21-21","runtime_seconds":9.8816293}],"total_operations":1}}
+{"time":"2025-06-16T12:55:38.4041656+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/slaw-mecz-vrije-universiteit-amsterdam/complex-weighted-training-pipeline/hq2yf9wc/file_stream\": dial tcp 35.186.228.49:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-06-16T12:55:38.4047666+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp 35.186.228.49:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-06-16T12:55:43.7884928+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-16T12:55:44.0433119+02:00","level":"INFO","msg":"stream: closing","id":"hq2yf9wc"}
+{"time":"2025-06-16T12:55:44.0438208+02:00","level":"INFO","msg":"sender: closed","stream_id":"hq2yf9wc"}
+{"time":"2025-06-16T12:55:44.0433119+02:00","level":"INFO","msg":"handler: closed","stream_id":"hq2yf9wc"}
+{"time":"2025-06-16T12:55:44.0433119+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hq2yf9wc"}
+{"time":"2025-06-16T12:55:44.0438208+02:00","level":"INFO","msg":"stream: closed","id":"hq2yf9wc"}

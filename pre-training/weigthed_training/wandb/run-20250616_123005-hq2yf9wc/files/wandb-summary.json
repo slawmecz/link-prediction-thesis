@@ -1,0 +1,1 @@
+{"test_hits_at_3":0.054432919072316274,"num_artificial_triples":0,"_wandb":{"runtime":1509},"test_mr":0,"training_duration_seconds":1506.624654,"num_weighted_triples":272115,"_runtime":1509.2794655,"num_training_triples":272115,"_step":0,"test_hits_at_1":0.029161366082786966,"test_hits_at_10":0.09516586750171249,"_timestamp":1.750071314898889e+09,"test_mrr":0.05265529826283455}

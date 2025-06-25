@@ -1,0 +1,66 @@
+_wandb:
+    value:
+        cli_version: 0.19.9
+        m: []
+        python_version: 3.10.16
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+                - 55
+            "2":
+                - 1
+                - 5
+                - 53
+                - 55
+            "3":
+                - 13
+                - 16
+                - 23
+                - 55
+            "4": 3.10.16
+            "5": 0.19.9
+            "8":
+                - 3
+                - 5
+            "12": 0.19.9
+            "13": windows-amd64
+api_max_retries:
+    value: 3
+api_retry_delay:
+    value: 1
+api_timeout:
+    value: 30
+api_url:
+    value: http://localhost:8080/recommender
+batch_size:
+    value: 1000
+create_artificial_triples:
+    value: false
+dataset:
+    value: FB15k237
+embedding_dim:
+    value: 1000
+epochs:
+    value: 19
+eval_batch_size:
+    value: 256
+force_recompute_weights:
+    value: false
+learning_rate:
+    value: 0.1
+max_entities_to_score:
+    value: 100
+probability_threshold:
+    value: 0.25
+random_seed:
+    value: 42
+regularize_weight:
+    value: 0.05
+save_model:
+    value: true
+use_wandb:
+    value: true
+weight_scale:
+    value: 5

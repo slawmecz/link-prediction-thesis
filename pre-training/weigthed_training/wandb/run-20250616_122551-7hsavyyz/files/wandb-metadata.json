@@ -1,0 +1,31 @@
+{
+  "os": "Windows-10-10.0.22631-SP0",
+  "python": "CPython 3.10.16",
+  "startedAt": "2025-06-16T10:25:51.959740Z",
+  "program": "C:\\Users\\Slawek\\Documents\\GitHub\\link-prediction-thesis\\pre-training\\weigthed_training\\complex_weighted_training_pipeline.py",
+  "codePath": "pre-training\\weigthed_training\\complex_weighted_training_pipeline.py",
+  "git": {
+    "remote": "https://github.com/slawmecz/link-prediction-thesis.git",
+    "commit": "5e6923fc4da5a9a94ebce0b5b29d417670a7aee9"
+  },
+  "email": "slaw.mecz@gmail.com",
+  "root": "C:\\Users\\Slawek\\Documents\\GitHub\\link-prediction-thesis\\pre-training\\weigthed_training",
+  "host": "TEST-NI9E45KQ6E",
+  "executable": "C:\\Users\\Slawek\\anaconda3\\envs\\knowledge_graphs\\python.exe",
+  "codePathLocal": "complex_weighted_training_pipeline.py",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "disk": {
+    "/": {
+      "total": "509722226688",
+      "used": "494227841024"
+    }
+  },
+  "memory": {
+    "total": "16498536448"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 16
+  }
+}

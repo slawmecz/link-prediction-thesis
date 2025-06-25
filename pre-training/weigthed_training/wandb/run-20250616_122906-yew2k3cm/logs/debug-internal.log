@@ -1,0 +1,17 @@
+{"time":"2025-06-16T12:29:06.0801121+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\Slawek\\Documents\\GitHub\\link-prediction-thesis\\pre-training\\weigthed_training\\wandb\\run-20250616_122906-yew2k3cm\\logs\\debug-core.log"}
+{"time":"2025-06-16T12:29:06.7894704+02:00","level":"INFO","msg":"created new stream","id":"yew2k3cm"}
+{"time":"2025-06-16T12:29:06.7894704+02:00","level":"INFO","msg":"stream: started","id":"yew2k3cm"}
+{"time":"2025-06-16T12:29:06.7894704+02:00","level":"INFO","msg":"handler: started","stream_id":"yew2k3cm"}
+{"time":"2025-06-16T12:29:06.7894704+02:00","level":"INFO","msg":"sender: started","stream_id":"yew2k3cm"}
+{"time":"2025-06-16T12:29:06.7894704+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"yew2k3cm"}
+{"time":"2025-06-16T12:29:07.0288567+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-16T12:29:22.0609491+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:29:38.4275529+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-06-16T12:29:51.5654113+02:00","level":"INFO","msg":"stream: closing","id":"yew2k3cm"}
+{"time":"2025-06-16T12:29:51.5654113+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-16T12:29:51.5654113+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-16T12:29:52.4408198+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-16T12:29:52.6735717+02:00","level":"INFO","msg":"handler: closed","stream_id":"yew2k3cm"}
+{"time":"2025-06-16T12:29:52.6735717+02:00","level":"INFO","msg":"sender: closed","stream_id":"yew2k3cm"}
+{"time":"2025-06-16T12:29:52.6735717+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"yew2k3cm"}
+{"time":"2025-06-16T12:29:52.6751328+02:00","level":"INFO","msg":"stream: closed","id":"yew2k3cm"}

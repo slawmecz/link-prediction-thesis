@@ -26,7 +26,8 @@ This repository is a part of a research implementation conducted by Slawomir Mec
 - **Dataset:**  
   [FB15k-237](https://paperswithcode.com/dataset/fb15k-237)  
   > Toutanova, K., & Chen, D. (2015). Observed versus latent features for knowledge base and text inference.
- The implementation also supports datasets in Wikidata format, such as [CoDEx](https://github.com/tsafavi/codex) (already included in the pre-training files), but can be run with other knowledge graphs as well. The files used to generate the TSV required for building the SchemaTree are located in the recommender_server directory. The instructions on how to build and use the SchemaTree are in the README file of the recommender_server directory.
+ 
+The implementation also supports datasets in Wikidata format, such as [CoDEx](https://github.com/tsafavi/codex) (already included in the pre-training files), but can be run with other knowledge graphs as well. The files used to generate the TSV required for building the SchemaTree are located in the recommender_server directory. The instructions on how to build and use the SchemaTree are in the README file of the recommender_server directory.
 
 
 
